@@ -7,13 +7,13 @@
   --color-white: rgb(255, 255, 255);
 
   --text-color-second: rgb(68, 68, 68);
-  --text-color-third: rgb(30, 159, 171);
+  --text-color-third: rgb(103, 73, 212);
 
   --first-color: rgb(110, 87, 224);
-  --first-color-hover: rgb(40, 91, 212);
+  --first-color-hover: rgba(15, 87, 233, 0.899);
 
   --second-color: rgb(110, 87, 224);
-  --third-color: rgb(192, 166, 49);
+  --third-color: rgb(159, 11, 217);
   --first-shadow-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -125,7 +125,7 @@ nav {
   margin-inline: 20px;
 }
 .nav-link:hover {
-  color: #00b5e7;
+  color: #82049f;
 }
 .nav-menu-btn {
   display: none;
@@ -244,6 +244,7 @@ nav {
 .image img {
   width: 380px;
   height: 380px;
+  border-radius: 50%;
   object-fit: contain;
 }
 @keyframes imgFloat {
@@ -535,17 +536,17 @@ footer {
 /* Social icons link animation */
 
 .footer-social-icons .icon:hover {
-  background-color: #ddd;
+  background-color: #dddddd;
 }
 
 .footer-social-icons .icon:hover a {
-  color: #19dd19;
+  color: #7848e8;
 }
 .social_icons .icon:hover {
-  background-color: #ddd;
+  background-color: #e4ddddbf;
 }
 .social_icons .icon:hover a {
-  color: #19dd19;
+  color: #7b4ce2;
 }
 /* Bottom footer */
 .bottom-footer {
